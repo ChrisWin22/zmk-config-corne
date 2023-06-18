@@ -68,10 +68,21 @@
 
         gaming_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+   &kp TAB  &kp Q  &kp W   &kp E      &kp R        &kp T    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHIFT  &kp A  &kp S   &kp D      &kp F        &kp G    &trans  &trans  &trans  &trans  &trans  &trans
+ &kp LCTRL  &kp Z  &kp X   &kp C      &kp V        &kp B    &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &kp SPACE  &lt 5 ENTER    &trans  &trans  &trans
+            >;
+
+            label = "Gaming";
+        };
+
+        gaming2 {
+            bindings = <
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
