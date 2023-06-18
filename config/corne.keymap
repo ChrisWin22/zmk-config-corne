@@ -25,8 +25,6 @@
     &kp LSHFT  &kp Z  &kp X  &kp C     &kp V          &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
                              &mo 1  &kp LGUI  &kp BACKSPACE    &kp ENTER  &kp SPACE      &mo 2
             >;
-
-            label = "Default";
         };
 
         lower_layer {
@@ -37,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-    &trans        &kp N1        &kp N2        &kp N3        &kp N4        &kp N5       &kp KP_SLASH  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_SUBTRACT  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6      &kp KP_PLUS    &trans
- &kp LSHFT        &trans        &trans        &trans        &trans        &trans             &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3       &kp KP_DOT    &trans
-                                            &kp LGUI        &trans     &kp SPACE          &kp ENTER  &kp KP_N0      &mo 3
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp KP_SLASH  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_SUBTRACT  &kp BSPC
+    &trans        &trans        &trans        &trans        &trans        &trans    &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6      &kp KP_PLUS    &trans
+    &trans        &trans        &trans        &trans        &trans        &trans             &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3       &kp KP_DOT    &trans
+                                              &trans        &trans        &trans          &kp ENTER  &kp KP_N0      &mo 3
             >;
 
             label = "Lower";
@@ -54,10 +52,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-     &trans    &kp EXCL      &kp AT    &kp HASH    &kp DLLR      &kp PRCNT    &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR   &kp BSPC
-&kp LC(TAB)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)     &kp LG(N5)    &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
-     &trans  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)     &kp LG(N0)    &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
-                                       &kp LGUI       &mo 3  &kp BACKSPACE      &kp RET     &trans           &trans
+     &trans    &kp EXCL      &kp AT    &kp HASH    &kp DLLR   &kp PRCNT    &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR        &kp BSPC
+&kp LC(TAB)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp GRAVE  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH  &kp UNDERSCORE
+     &trans  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)       &trans     &trans         &kp LBRC  &kp RBRC  &kp PIPE       &kp TILDE
+                                          &mo 3      &trans      &trans      &kp RET     &trans           &trans
             >;
 
             label = "Raise";
@@ -71,7 +69,7 @@
                                         &trans            &trans             &trans    &trans    &trans    &trans
             >;
 
-            label = "Combined";
+            label = "Combo";
         };
 
         gaming_layer {
@@ -82,7 +80,7 @@
                           &trans  &kp SPACE  &lt 5 ENTER    &trans  &trans  &trans
             >;
 
-            label = "Gaming";
+            label = "Game";
         };
 
         gaming_2 {
@@ -93,7 +91,7 @@
                          &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
-            label = "Gaming2";
+            label = "Game2";
         };
     };
 };
