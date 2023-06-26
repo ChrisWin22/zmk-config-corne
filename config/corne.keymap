@@ -52,10 +52,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-     &trans    &kp EXCL      &kp AT    &kp HASH    &kp DLLR   &kp PRCNT    &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR        &kp BSPC
-&kp LC(TAB)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp GRAVE  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH  &kp UNDERSCORE
-     &trans  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)       &trans     &trans         &kp LBRC  &kp RBRC  &kp PIPE       &kp TILDE
-                                          &mo 3      &trans      &trans      &kp RET     &trans           &trans
+       &trans    &kp EXCL      &kp AT    &kp HASH    &kp DLLR   &kp PRCNT    &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR        &kp BSPC
+  &kp LC(TAB)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp GRAVE  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH  &kp UNDERSCORE
+&kp LA(ENTER)  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)       &trans     &trans         &kp LBRC  &kp RBRC  &kp PIPE       &kp TILDE
+                                            &mo 3      &trans      &trans      &kp RET     &trans           &trans
             >;
 
             label = "Raise";
