@@ -86,7 +86,7 @@
         gaming_2 {
             bindings = <
 &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans   &kp J   &kp I   &kp M  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &kp J   &kp I   &kp M   &kp L    &trans  &trans  &trans  &trans  &trans  &trans
  &tog 4  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                          &trans  &trans  &trans    &trans  &trans  &trans
             >;
