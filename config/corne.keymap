@@ -75,10 +75,10 @@
 
         gaming_layer {
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E   &kp R      &kp T          &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHIFT  &kp A  &kp S  &kp D   &kp F      &kp G          &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL   &kp Z  &kp X  &kp C   &kp V      &kp B          &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans  &kp SPACE  &lt 5 ENTER    &trans  &trans  &trans
+&kp TAB     &kp Q  &kp W  &kp E  &kp R      &kp T          &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHIFT  &kp A  &kp S  &kp D  &kp F      &kp G          &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL   &kp Z  &kp X  &kp C  &kp V      &kp B          &trans  &trans  &trans  &trans  &trans  &trans
+                          &mo 6  &kp SPACE  &lt 5 ENTER    &trans  &trans  &trans
             >;
 
             label = "Game";
@@ -86,13 +86,22 @@
 
         gaming_2 {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans  &kp J   &kp I   &kp M   &kp L     &trans  &trans  &trans  &trans  &trans  &trans
-&tog 4   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans    &trans  &trans  &trans
+&kp ESC  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans        &kp J         &kp I         &kp M         &kp L           &trans  &trans  &trans  &trans  &trans  &trans
+&tog 4   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &trans  &trans  &trans  &trans  &trans  &trans
+                                     &trans        &trans        &trans          &trans  &trans  &trans
             >;
 
             label = "Game2";
+        };
+
+        Gaming_3 {
+            bindings = <
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_UP      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans               &trans  &trans  &trans
+            >;
         };
     };
 };
